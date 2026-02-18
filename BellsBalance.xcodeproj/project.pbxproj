@@ -3,33 +3,95 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		74CBBCA52F45C4F2005E762E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CBBC9B2F45C4F2005E762E /* Assets.xcassets */; };
+		74CBBCA72F45C4F2005E762E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CBBC9F2F45C4F2005E762E /* LaunchScreen.storyboard */; };
+		74CBBCA82F45C4F2005E762E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CBBCA12F45C4F2005E762E /* Main.storyboard */; };
+		74CBBCA92F45C4F2005E762E /* Color+Bells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC6D2F45C4F2005E762E /* Color+Bells.swift */; };
+		74CBBCAA2F45C4F2005E762E /* View+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC6E2F45C4F2005E762E /* View+Design.swift */; };
+		74CBBCAB2F45C4F2005E762E /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC702F45C4F2005E762E /* Achievement.swift */; };
+		74CBBCAC2F45C4F2005E762E /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC712F45C4F2005E762E /* Container.swift */; };
+		74CBBCAD2F45C4F2005E762E /* DailyStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC722F45C4F2005E762E /* DailyStats.swift */; };
+		74CBBCAE2F45C4F2005E762E /* DrinkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC732F45C4F2005E762E /* DrinkType.swift */; };
+		74CBBCAF2F45C4F2005E762E /* Gamification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC742F45C4F2005E762E /* Gamification.swift */; };
+		74CBBCB02F45C4F2005E762E /* HydrationLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC752F45C4F2005E762E /* HydrationLevel.swift */; };
+		74CBBCB12F45C4F2005E762E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC762F45C4F2005E762E /* Reminder.swift */; };
+		74CBBCB22F45C4F2005E762E /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC772F45C4F2005E762E /* Template.swift */; };
+		74CBBCB32F45C4F2005E762E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC782F45C4F2005E762E /* UserProfile.swift */; };
+		74CBBCB42F45C4F2005E762E /* WaterEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC792F45C4F2005E762E /* WaterEntry.swift */; };
+		74CBBCB52F45C4F2005E762E /* BellsBalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC7B2F45C4F2005E762E /* BellsBalanceViewModel.swift */; };
+		74CBBCB62F45C4F2005E762E /* AddWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC7D2F45C4F2005E762E /* AddWaterView.swift */; };
+		74CBBCB72F45C4F2005E762E /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC7F2F45C4F2005E762E /* BalanceView.swift */; };
+		74CBBCB82F45C4F2005E762E /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC812F45C4F2005E762E /* CircularProgressView.swift */; };
+		74CBBCB92F45C4F2005E762E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC832F45C4F2005E762E /* HomeView.swift */; };
+		74CBBCBA2F45C4F2005E762E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC852F45C4F2005E762E /* OnboardingView.swift */; };
+		74CBBCBB2F45C4F2005E762E /* AddContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC872F45C4F2005E762E /* AddContainerView.swift */; };
+		74CBBCBC2F45C4F2005E762E /* AddTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC882F45C4F2005E762E /* AddTemplateView.swift */; };
+		74CBBCBD2F45C4F2005E762E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC892F45C4F2005E762E /* ProfileView.swift */; };
+		74CBBCBE2F45C4F2005E762E /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC8B2F45C4F2005E762E /* AddReminderView.swift */; };
+		74CBBCBF2F45C4F2005E762E /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC8C2F45C4F2005E762E /* RemindersView.swift */; };
+		74CBBCC02F45C4F2005E762E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC8E2F45C4F2005E762E /* SettingsView.swift */; };
+		74CBBCC12F45C4F2005E762E /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC902F45C4F2005E762E /* CheckLink.swift */; };
+		74CBBCC22F45C4F2005E762E /* ShowWebPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC912F45C4F2005E762E /* ShowWebPrivacyView.swift */; };
+		74CBBCC32F45C4F2005E762E /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC922F45C4F2005E762E /* StartingView.swift */; };
+		74CBBCC42F45C4F2005E762E /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC942F45C4F2005E762E /* AnalyticsView.swift */; };
+		74CBBCC52F45C4F2005E762E /* CalendarMiniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC952F45C4F2005E762E /* CalendarMiniView.swift */; };
+		74CBBCC62F45C4F2005E762E /* DayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC962F45C4F2005E762E /* DayDetailView.swift */; };
+		74CBBCC72F45C4F2005E762E /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC972F45C4F2005E762E /* StatisticsView.swift */; };
+		74CBBCC82F45C4F2005E762E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC9A2F45C4F2005E762E /* AppDelegate.swift */; };
+		74CBBCC92F45C4F2005E762E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBC9C2F45C4F2005E762E /* ContentView.swift */; };
+		74CBBCCA2F45C4F2005E762E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBCA22F45C4F2005E762E /* SceneDelegate.swift */; };
+		74CBBCCB2F45C4F2005E762E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CBBCA32F45C4F2005E762E /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		73FD2CE1CFEEEE3C375678C6 /* Pods-BellsBalance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BellsBalance.debug.xcconfig"; path = "Target Support Files/Pods-BellsBalance/Pods-BellsBalance.debug.xcconfig"; sourceTree = "<group>"; };
 		745816742F4470F80005AB10 /* BellsBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellsBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CBBC6D2F45C4F2005E762E /* Color+Bells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Bells.swift"; sourceTree = "<group>"; };
+		74CBBC6E2F45C4F2005E762E /* View+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Design.swift"; sourceTree = "<group>"; };
+		74CBBC702F45C4F2005E762E /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		74CBBC712F45C4F2005E762E /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		74CBBC722F45C4F2005E762E /* DailyStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStats.swift; sourceTree = "<group>"; };
+		74CBBC732F45C4F2005E762E /* DrinkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkType.swift; sourceTree = "<group>"; };
+		74CBBC742F45C4F2005E762E /* Gamification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamification.swift; sourceTree = "<group>"; };
+		74CBBC752F45C4F2005E762E /* HydrationLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationLevel.swift; sourceTree = "<group>"; };
+		74CBBC762F45C4F2005E762E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		74CBBC772F45C4F2005E762E /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		74CBBC782F45C4F2005E762E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		74CBBC792F45C4F2005E762E /* WaterEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterEntry.swift; sourceTree = "<group>"; };
+		74CBBC7B2F45C4F2005E762E /* BellsBalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellsBalanceViewModel.swift; sourceTree = "<group>"; };
+		74CBBC7D2F45C4F2005E762E /* AddWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaterView.swift; sourceTree = "<group>"; };
+		74CBBC7F2F45C4F2005E762E /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		74CBBC812F45C4F2005E762E /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		74CBBC832F45C4F2005E762E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		74CBBC852F45C4F2005E762E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74CBBC872F45C4F2005E762E /* AddContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContainerView.swift; sourceTree = "<group>"; };
+		74CBBC882F45C4F2005E762E /* AddTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTemplateView.swift; sourceTree = "<group>"; };
+		74CBBC892F45C4F2005E762E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		74CBBC8B2F45C4F2005E762E /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		74CBBC8C2F45C4F2005E762E /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		74CBBC8E2F45C4F2005E762E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74CBBC902F45C4F2005E762E /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74CBBC912F45C4F2005E762E /* ShowWebPrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWebPrivacyView.swift; sourceTree = "<group>"; };
+		74CBBC922F45C4F2005E762E /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		74CBBC942F45C4F2005E762E /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		74CBBC952F45C4F2005E762E /* CalendarMiniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMiniView.swift; sourceTree = "<group>"; };
+		74CBBC962F45C4F2005E762E /* DayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailView.swift; sourceTree = "<group>"; };
+		74CBBC972F45C4F2005E762E /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		74CBBC9A2F45C4F2005E762E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74CBBC9B2F45C4F2005E762E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74CBBC9C2F45C4F2005E762E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74CBBC9D2F45C4F2005E762E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CBBC9E2F45C4F2005E762E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74CBBCA02F45C4F2005E762E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74CBBCA22F45C4F2005E762E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74CBBCA32F45C4F2005E762E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76C1BC7775EC5413BE350807 /* Pods-BellsBalance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BellsBalance.release.xcconfig"; path = "Target Support Files/Pods-BellsBalance/Pods-BellsBalance.release.xcconfig"; sourceTree = "<group>"; };
+		F5D5768C24A6670227802E9D /* Pods_BellsBalance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BellsBalance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		745816862F4470F90005AB10 /* Exceptions for "BellsBalance" folder in "BellsBalance" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 745816732F4470F80005AB10 /* BellsBalance */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		745816762F4470F80005AB10 /* BellsBalance */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				745816862F4470F90005AB10 /* Exceptions for "BellsBalance" folder in "BellsBalance" target */,
-			);
-			path = BellsBalance;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		745816712F4470F80005AB10 /* Frameworks */ = {
@@ -42,11 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6CD5CB9CA786F0650075E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73FD2CE1CFEEEE3C375678C6 /* Pods-BellsBalance.debug.xcconfig */,
+				76C1BC7775EC5413BE350807 /* Pods-BellsBalance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7458166B2F4470F80005AB10 = {
 			isa = PBXGroup;
 			children = (
-				745816762F4470F80005AB10 /* BellsBalance */,
+				74CBBCA42F45C4F2005E762E /* BellsBalance */,
 				745816752F4470F80005AB10 /* Products */,
+				4F6CD5CB9CA786F0650075E4 /* Pods */,
+				7EB25FBC3E90214CE1C810FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +131,172 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		74CBBC6F2F45C4F2005E762E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC6D2F45C4F2005E762E /* Color+Bells.swift */,
+				74CBBC6E2F45C4F2005E762E /* View+Design.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74CBBC7A2F45C4F2005E762E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC702F45C4F2005E762E /* Achievement.swift */,
+				74CBBC712F45C4F2005E762E /* Container.swift */,
+				74CBBC722F45C4F2005E762E /* DailyStats.swift */,
+				74CBBC732F45C4F2005E762E /* DrinkType.swift */,
+				74CBBC742F45C4F2005E762E /* Gamification.swift */,
+				74CBBC752F45C4F2005E762E /* HydrationLevel.swift */,
+				74CBBC762F45C4F2005E762E /* Reminder.swift */,
+				74CBBC772F45C4F2005E762E /* Template.swift */,
+				74CBBC782F45C4F2005E762E /* UserProfile.swift */,
+				74CBBC792F45C4F2005E762E /* WaterEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74CBBC7C2F45C4F2005E762E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC7B2F45C4F2005E762E /* BellsBalanceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74CBBC7E2F45C4F2005E762E /* AddWater */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC7D2F45C4F2005E762E /* AddWaterView.swift */,
+			);
+			path = AddWater;
+			sourceTree = "<group>";
+		};
+		74CBBC802F45C4F2005E762E /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC7F2F45C4F2005E762E /* BalanceView.swift */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		74CBBC822F45C4F2005E762E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC812F45C4F2005E762E /* CircularProgressView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		74CBBC842F45C4F2005E762E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC832F45C4F2005E762E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		74CBBC862F45C4F2005E762E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC852F45C4F2005E762E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		74CBBC8A2F45C4F2005E762E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC872F45C4F2005E762E /* AddContainerView.swift */,
+				74CBBC882F45C4F2005E762E /* AddTemplateView.swift */,
+				74CBBC892F45C4F2005E762E /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		74CBBC8D2F45C4F2005E762E /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC8B2F45C4F2005E762E /* AddReminderView.swift */,
+				74CBBC8C2F45C4F2005E762E /* RemindersView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		74CBBC8F2F45C4F2005E762E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC8E2F45C4F2005E762E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		74CBBC932F45C4F2005E762E /* StartingView */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC902F45C4F2005E762E /* CheckLink.swift */,
+				74CBBC912F45C4F2005E762E /* ShowWebPrivacyView.swift */,
+				74CBBC922F45C4F2005E762E /* StartingView.swift */,
+			);
+			path = StartingView;
+			sourceTree = "<group>";
+		};
+		74CBBC982F45C4F2005E762E /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC942F45C4F2005E762E /* AnalyticsView.swift */,
+				74CBBC952F45C4F2005E762E /* CalendarMiniView.swift */,
+				74CBBC962F45C4F2005E762E /* DayDetailView.swift */,
+				74CBBC972F45C4F2005E762E /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		74CBBC992F45C4F2005E762E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC7E2F45C4F2005E762E /* AddWater */,
+				74CBBC802F45C4F2005E762E /* Balance */,
+				74CBBC822F45C4F2005E762E /* Components */,
+				74CBBC842F45C4F2005E762E /* Home */,
+				74CBBC862F45C4F2005E762E /* Onboarding */,
+				74CBBC8A2F45C4F2005E762E /* Profile */,
+				74CBBC8D2F45C4F2005E762E /* Reminders */,
+				74CBBC8F2F45C4F2005E762E /* Settings */,
+				74CBBC932F45C4F2005E762E /* StartingView */,
+				74CBBC982F45C4F2005E762E /* Statistics */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74CBBCA42F45C4F2005E762E /* BellsBalance */ = {
+			isa = PBXGroup;
+			children = (
+				74CBBC6F2F45C4F2005E762E /* Extensions */,
+				74CBBC7A2F45C4F2005E762E /* Models */,
+				74CBBC7C2F45C4F2005E762E /* ViewModels */,
+				74CBBC992F45C4F2005E762E /* Views */,
+				74CBBC9A2F45C4F2005E762E /* AppDelegate.swift */,
+				74CBBC9B2F45C4F2005E762E /* Assets.xcassets */,
+				74CBBC9C2F45C4F2005E762E /* ContentView.swift */,
+				74CBBC9D2F45C4F2005E762E /* Info.plist */,
+				74CBBC9F2F45C4F2005E762E /* LaunchScreen.storyboard */,
+				74CBBCA12F45C4F2005E762E /* Main.storyboard */,
+				74CBBCA22F45C4F2005E762E /* SceneDelegate.swift */,
+				74CBBCA32F45C4F2005E762E /* ViewController.swift */,
+			);
+			path = BellsBalance;
+			sourceTree = "<group>";
+		};
+		7EB25FBC3E90214CE1C810FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5768C24A6670227802E9D /* Pods_BellsBalance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 745816872F4470F90005AB10 /* Build configuration list for PBXNativeTarget "BellsBalance" */;
 			buildPhases = (
+				2BB169ACFF12B9991022A9D8 /* [CP] Check Pods Manifest.lock */,
 				745816702F4470F80005AB10 /* Sources */,
 				745816712F4470F80005AB10 /* Frameworks */,
 				745816722F4470F80005AB10 /* Resources */,
@@ -73,12 +313,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				745816762F4470F80005AB10 /* BellsBalance */,
-			);
 			name = BellsBalance;
-			packageProductDependencies = (
-			);
 			productName = BellsBalance;
 			productReference = 745816742F4470F80005AB10 /* BellsBalance.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +334,7 @@
 				};
 			};
 			buildConfigurationList = 7458166F2F4470F80005AB10 /* Build configuration list for PBXProject "BellsBalance" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +342,6 @@
 				Base,
 			);
 			mainGroup = 7458166B2F4470F80005AB10;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 745816752F4470F80005AB10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +356,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CBBCA52F45C4F2005E762E /* Assets.xcassets in Resources */,
+				74CBBCA72F45C4F2005E762E /* LaunchScreen.storyboard in Resources */,
+				74CBBCA82F45C4F2005E762E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB169ACFF12B9991022A9D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BellsBalance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		745816702F4470F80005AB10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CBBCA92F45C4F2005E762E /* Color+Bells.swift in Sources */,
+				74CBBCAA2F45C4F2005E762E /* View+Design.swift in Sources */,
+				74CBBCAB2F45C4F2005E762E /* Achievement.swift in Sources */,
+				74CBBCAC2F45C4F2005E762E /* Container.swift in Sources */,
+				74CBBCAD2F45C4F2005E762E /* DailyStats.swift in Sources */,
+				74CBBCAE2F45C4F2005E762E /* DrinkType.swift in Sources */,
+				74CBBCAF2F45C4F2005E762E /* Gamification.swift in Sources */,
+				74CBBCB02F45C4F2005E762E /* HydrationLevel.swift in Sources */,
+				74CBBCB12F45C4F2005E762E /* Reminder.swift in Sources */,
+				74CBBCB22F45C4F2005E762E /* Template.swift in Sources */,
+				74CBBCB32F45C4F2005E762E /* UserProfile.swift in Sources */,
+				74CBBCB42F45C4F2005E762E /* WaterEntry.swift in Sources */,
+				74CBBCB52F45C4F2005E762E /* BellsBalanceViewModel.swift in Sources */,
+				74CBBCB62F45C4F2005E762E /* AddWaterView.swift in Sources */,
+				74CBBCB72F45C4F2005E762E /* BalanceView.swift in Sources */,
+				74CBBCB82F45C4F2005E762E /* CircularProgressView.swift in Sources */,
+				74CBBCB92F45C4F2005E762E /* HomeView.swift in Sources */,
+				74CBBCBA2F45C4F2005E762E /* OnboardingView.swift in Sources */,
+				74CBBCBB2F45C4F2005E762E /* AddContainerView.swift in Sources */,
+				74CBBCBC2F45C4F2005E762E /* AddTemplateView.swift in Sources */,
+				74CBBCBD2F45C4F2005E762E /* ProfileView.swift in Sources */,
+				74CBBCBE2F45C4F2005E762E /* AddReminderView.swift in Sources */,
+				74CBBCBF2F45C4F2005E762E /* RemindersView.swift in Sources */,
+				74CBBCC02F45C4F2005E762E /* SettingsView.swift in Sources */,
+				74CBBCC12F45C4F2005E762E /* CheckLink.swift in Sources */,
+				74CBBCC22F45C4F2005E762E /* ShowWebPrivacyView.swift in Sources */,
+				74CBBCC32F45C4F2005E762E /* StartingView.swift in Sources */,
+				74CBBCC42F45C4F2005E762E /* AnalyticsView.swift in Sources */,
+				74CBBCC52F45C4F2005E762E /* CalendarMiniView.swift in Sources */,
+				74CBBCC62F45C4F2005E762E /* DayDetailView.swift in Sources */,
+				74CBBCC72F45C4F2005E762E /* StatisticsView.swift in Sources */,
+				74CBBCC82F45C4F2005E762E /* AppDelegate.swift in Sources */,
+				74CBBCC92F45C4F2005E762E /* ContentView.swift in Sources */,
+				74CBBCCA2F45C4F2005E762E /* SceneDelegate.swift in Sources */,
+				74CBBCCB2F45C4F2005E762E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		74CBBC9F2F45C4F2005E762E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CBBC9E2F45C4F2005E762E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74CBBCA12F45C4F2005E762E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CBBCA02F45C4F2005E762E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		745816882F4470F90005AB10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FD2CE1CFEEEE3C375678C6 /* Pods-BellsBalance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +464,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BellsBalance/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BellsBalance: Hydration";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.BellsBalance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teu.b2llsb9l2nc2h;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		745816892F4470F90005AB10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C1BC7775EC5413BE350807 /* Pods-BellsBalance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +502,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BellsBalance/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BellsBalance: Hydration";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.BellsBalance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teu.b2llsb9l2nc2h;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
